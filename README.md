@@ -118,11 +118,6 @@ We welcome contributions! To contribute:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Contact
 For any queries, feel free to reach out:
 - **GitHub:** [varana2001](https://github.com/varana2001)
