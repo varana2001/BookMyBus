@@ -4,7 +4,7 @@
 **BookMyBus** is a Django-based online bus ticket booking system designed to simplify the process of booking bus tickets. It offers a user-friendly interface for travelers to search, book, and manage tickets and provides an admin panel for bus operators to manage schedules and bookings.
 
 ---
-![Application Screenshot](myapp/static/mysite/img/project2.png)
+![Application Screenshot](BookMyBus-master/myproject/myapp/static/mysite/img/project2.png)
 ## Features
 ### User Features:
 - **Search Buses:** Search for buses by origin, destination, and date.
