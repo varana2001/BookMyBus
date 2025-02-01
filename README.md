@@ -5,6 +5,7 @@
 
 ---
 ![Application Screenshot](BookMyBus-master/myproject/myapp/static/mysite/img/project2.png)
+
 ## Features
 ### User Features:
 - **Search Buses:** Search for buses by origin, destination, and date.
@@ -50,3 +51,79 @@
    ```bash
    git clone git@github.com:varana2001/BookMyBus.git
    cd BookMyBus
+   ```
+
+2. **Create and Activate Virtual Environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Apply Migrations:**
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Create a Superuser (Admin Access):**
+   ```bash
+   python manage.py createsuperuser
+   ```
+   Follow the prompts to create an admin user.
+
+6. **Run the Development Server:**
+   ```bash
+   python manage.py runserver
+   ```
+
+7. **Access the Application:**
+   - User Interface: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+   - Admin Panel: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
+
+---
+
+## Usage
+1. **User Flow:**
+   - Register or log in.
+   - Search for buses based on origin, destination, and date.
+   - Select an available bus and choose preferred seats.
+   - Confirm the booking and receive a booking confirmation.
+   - Manage bookings from the user dashboard.
+
+2. **Admin Flow:**
+   - Log in to the admin panel.
+   - Add or modify bus schedules.
+   - Track and manage bookings.
+
+---
+
+## Future Enhancements
+- **Payment Gateway Integration:** Allow users to pay online for ticket bookings.
+- **Live Seat Availability:** Real-time seat availability tracking.
+- **Mobile App:** Develop an Android/iOS app for easier access.
+- **Multi-Language Support:** Support multiple languages for better accessibility.
+
+---
+
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit your changes.
+4. Push to the branch and submit a pull request.
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+For any queries, feel free to reach out:
+- **GitHub:** [varana2001](https://github.com/varana2001)
+- **Email:** varana2001@example.com
